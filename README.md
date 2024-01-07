@@ -6,14 +6,22 @@ Tracy Beth Høeg, Ambarish Chandra, Ram Duriseti, Shamez Ladhani, and Vinay Pras
 
 This document provides detailed code and data, as well as step-by-step instructions, for replicating the following figures and tables in Høeg et al.
 
-Figure 1: Student Enrollment and District Population
-Figure 2a and b. Replication and Extension of Figure 1B from Cowger et al.
-Figure 3: Student case rates reported by districts, aggregated by Massachusetts counties.
-Figure 4. Cumulative community cases by district mask policy
-Figure 6: Analysis of the relationship between community case rates from 12/1/2020 through 2/27/2022 and case rates post 2/27/2022 through 6/22/2022.
-Table 1. Case rate changes from pre- to post-March 3rd 2023 by multiple baseline time periods.
-Table 2: DiD analysis between different “treatment” groups by testing population
-Figure 5. Cumulative cases per capita by county (data restricted)
+Figure 1: Student Enrollment and District Population  
+
+Figure 2a and b. Replication and Extension of Figure 1B from Cowger et al.  
+
+Figure 3: Student case rates reported by districts, aggregated by Massachusetts counties.  
+
+Figure 4. Cumulative community cases by district mask policy  
+
+Figure 6: Analysis of the relationship between community case rates from 12/1/2020 through 2/27/2022 and case rates post 2/27/2022 through 6/22/2022.  
+
+Table 1. Case rate changes from pre- to post-March 3rd 2023 by multiple baseline time periods.  
+
+Table 2: DiD analysis between different “treatment” groups by testing population  
+
+Figure 5. Cumulative cases per capita by county (data restricted)  
+
 
 For Figure 5, we have provided our code and documentation but not the data. This is because these data are restricted by the Centers for Disease Control (CDC) and may not be posted publicly, although interested researchers may apply to the CDC for permission to access the data at https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Restricted-Access-Detai/mbd7-r32t/about_data.
 
