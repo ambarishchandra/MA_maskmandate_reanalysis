@@ -28,14 +28,14 @@ For Figure 5, we have provided our code and documentation but not the data. This
 Note that some figures use the same datasets as those used for making prior figures (e.g. Figure 3 reuses the same datasets that were needed to produce Figure 2). The document provides standalone instructions for reproducing each table and figure in the paper. This is done to facilitate replication of whichever table or figure researchers may be interested in, without needing to generate all results in the paper.
 
 Notes on executing the codes:
-1. Place “codes”, “data” and “figures” at the same level of folder hierarchy.
-2. Execute all codes from the root folder.
-3. Graphs will be saved to the “figures” subfolder, which the user needs to create.
-4. The final tables require additional formatting that is not shown here.
-5. Stata codes were created and tested using Stata Version 18.
-6. R codes were created and tested using R Version 4.2.3
+1. Place “codes”, “data” and “figures” at the same level of folder hierarchy.  
+2. Execute all codes from the root folder.  
+3. Graphs will be saved to the “figures” subfolder, which the user needs to create.  
+4. The final tables require additional formatting that is not shown here.  
+5. Stata codes were created and tested using Stata Version 18.  
+6. R codes were created and tested using R Version 4.2.3  
 
-Figure 1: Student Enrollment and District Population
+**Figure 1: Student Enrollment and District Population**  
 Dataset(s) required: 
 enrollmentbyracegender.csv (provided): Race and Gender data for 398 MA school districts.
 weekly_city_town.csv (provided): Weekly Covid-19 case reports for all MA cities and towns.
