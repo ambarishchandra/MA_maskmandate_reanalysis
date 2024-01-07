@@ -36,34 +36,36 @@ Notes on executing the codes:
 6. R codes were created and tested using R Version 4.2.3  
 
 **Figure 1: Student Enrollment and District Population**  
-Dataset(s) required: 
-enrollmentbyracegender.csv (provided): Race and Gender data for 398 MA school districts.
-weekly_city_town.csv (provided): Weekly Covid-19 case reports for all MA cities and towns.
-nejm_unmasking_dates.csv (provided): List of 72 districts studied by Cowger et al, with dates on which mask mandates ended.
-MA_district_enrollment_bygrade.csv (provided): Number of students enrolled, by grade, in each of 398 MA school districts.
-Code(s) required:
+Dataset(s) required:  
+enrollmentbyracegender.csv (provided): Race and Gender data for 398 MA school districts.  
+weekly_city_town.csv (provided): Weekly Covid-19 case reports for all MA cities and towns.  
+nejm_unmasking_dates.csv (provided): List of 72 districts studied by Cowger et al, with dates on which mask mandates ended.  
+MA_district_enrollment_bygrade.csv (provided): Number of students enrolled, by grade, in each of 398 MA school districts.  
+Code(s) required:  
 Read_data.do (provided): Read in raw data, creates and saves a graph (enrollment_race2.png) showing enrollment and fraction white for all districts, which is Figure 1 in the paper.
 
-Figure 2a and 2b: Replication and Extension of Figure 1B from Cowger et al
-Dataset(s) required: 
-nejm_unmasking_dates.csv (provided): List of 72 districts studied by Cowger et al, with dates on which mask mandates ended.
-MA_district_enrollment_bygrade.csv (provided): Number of students enrolled, by grade, in each of 398 MA school districts.
-Nejm_covid_reports.csv (provided): Weekly positive Covid-19 cases, separately for students and staff, for 398 MA school districts.
+**Figure 2a and 2b: Replication and Extension of Figure 1B from Cowger et al**  
 
-Code(s) required:
-Replicate_nejm.do (provided): reads in district level data on Staff FTE and student enrollment, unmasking dates, weekly covid cases. Smooths out missing data for holiday weeks, constructs three-week moving averages, saves an intermediate dataset: data_for_graphs.dta
-Make_nejm_graphs.do (provided): starts with data_for_graphs.dta, makes graphs to replicate Figure in Cowger et al, for Figure 2a in the paper (students1.png). Also extends back to the start of the school year for Figure 2b (students2.png).
+Dataset(s) required:  
+nejm_unmasking_dates.csv (provided): List of 72 districts studied by Cowger et al, with dates on which mask mandates ended.  
+MA_district_enrollment_bygrade.csv (provided): Number of students enrolled, by grade, in each of 398 MA school districts.  
+Nejm_covid_reports.csv (provided): Weekly positive Covid-19 cases, separately for students and staff, for 398 MA school districts.  
 
-Figure 3: Student case rates reported by districts, aggregated by Massachusetts counties.
-Dataset(s) required:
-MA_district_enrollment_bygrade.csv (provided): Number of students enrolled, by grade, in each of 398 MA school districts.
-Nejm_covid_reports.csv (provided): Weekly positive Covid-19 cases, separately for students and staff, for 398 MA school districts.
+Code(s) required:  
+Replicate_nejm.do (provided): reads in district level data on Staff FTE and student enrollment, unmasking dates, weekly covid cases. Smooths out missing data for holiday weeks, constructs three-week moving averages, saves an intermediate dataset: data_for_graphs.dta  
+Make_nejm_graphs.do (provided): starts with data_for_graphs.dta, makes graphs to replicate Figure in Cowger et al, for Figure 2a in the paper (students1.png). Also extends back to the start of the school year for Figure 2b (students2.png).  
 
-Code(s) required:
-Extend_nejm.do (provided): Aggregates weekly district-level covid-19 case rates to the county level, for each of MA’s 14 counties, and then produces a graph (counties3.png) which is Figure 3 in the paper.
+**Figure 3: Student case rates reported by districts, aggregated by Massachusetts counties.**  
+Dataset(s) required:  
+MA_district_enrollment_bygrade.csv (provided): Number of students enrolled, by grade, in each of 398 MA school districts.  
+Nejm_covid_reports.csv (provided): Weekly positive Covid-19 cases, separately for students and staff, for 398 MA school districts.  
+
+Code(s) required:  
+Extend_nejm.do (provided): Aggregates weekly district-level covid-19 case rates to the county level, for each of MA’s 14 counties, and then produces a graph (counties3.png) which is Figure 3 in the paper.  
 
 
-Figure 4. Cumulative community cases by district mask policy
+**Figure 4. Cumulative community cases by district mask policy**  
+
 Dataset(s) required:
 weekly_city_town.csv (provided): Weekly Covid-19 case reports for all MA cities and towns.
 nejm_unmasking_dates.csv (provided): List of 72 districts studied by Cowger et al, with dates on which mask mandates ended.
