@@ -6,9 +6,9 @@ use ./data/data_for_graphs, clear
 
 label var stud_av "Weekly Covid-19 Cases per 1000"
 
-keep if date>22671 
-
 *NEJM figure starts in January 2022 for some reason, and also appears to cut off cases*averages at 30 cases.
+keep if date>22671 //Jan 26, 2022.
+
 *Next two lines force the y-range to be below 30 cases, to match the NEJM figure.
 drop if stud_av>30 & reportdate=="01-27-2022"
 replace stud_av=30 if stud_av>30
@@ -23,7 +23,7 @@ graph twoway  ///
 graph export ./figures/students1.png, replace 
  
 use ./data/data_for_graphs, clear
-keep if date>22550
+keep if date>22550 //Sept 27, 2021
 
 label var stud_av "Weekly Covid-19 Cases per 1000"
 
