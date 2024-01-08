@@ -1,9 +1,8 @@
-*Code to extend the NEJM study to look at districts beyond the 72 studied
+*Code to extend the NEJM study to include districts beyond the 72 studied. 
 *Written by AC, Jan 18, 2023
 
 
 tempfile temp2 temp3
-
 
 *Getting student enrollment numbers
 import delimited using "./data/MA_district_enrollment_bygrade", varnames(1) clear
@@ -79,7 +78,7 @@ by county: gen stud_case_percap_L`i' = stud_case_percap[_n-`i']
 gen stud_av=(stud_case_percap_L1+stud_case_percap_L2+stud_case_percap_L3)/3
 
 label var stud_av "Weekly Covid-19 Cases per 1000"
- keep if date>22550
+ keep if date>22550 //Sept 27, 2021
 
   graph twoway ///
 (line stud_av date if county=="Suffolk", lcolor(red)) (line stud_av date if county=="Essex", lcolor(gs8)) ///
