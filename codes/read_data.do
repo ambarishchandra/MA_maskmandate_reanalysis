@@ -9,7 +9,6 @@ replace unmaskweek="March 3" if district=="Carlisle"
 sort district
 save `temp1'
 
-
 import delimited using ./data/enrollmentbyracegender.csv, clear
 rename districtname district
 sort district
@@ -18,16 +17,6 @@ merge m:1 district using `temp1'
 keep if _m ==3 //all 72 matched
 drop _m
 save ./data/race_by_district, replace
-
-
-tempfile temp3
-*Getting list of 72 districts studied by Cowger et al (source: DESE spreadsheet)
-import delimited using ./data/nejm_unmasking_dates.csv, varnames(1) clear
-replace district="Dover-Sherborn" if district=="DoverSherborn"
-*Carlisle is marked as having an unmasking date of March 10, but it should be March 3
-replace unmaskweek="March 3" if district=="Carlisle"
-sort district
-save `temp3'
 
 import delimited using ./data/weekly_city_town.csv, varnames(1) clear
 keep citytown county population reportdate start_date end_date totalcasecounts twoweekcasecounts totaltestslasttwoweeks totalpositivetests
@@ -46,7 +35,7 @@ replace district="Nashoba" if inlist(citytown,"Bolton","Lancaster","Stow")
 
 collapse (sum) totalpositivetests population, by(district reportdate)
 sort district
-merge m:1 district using `temp3'
+merge m:1 district using `temp1'
 
 drop if _m==1 //districts not studied by the NEJM article
 drop if _m==2 //4 districts studied by NEJM article that don't map cleanly to towns: Concord-Carlisle, DoverSherborn, King Philip, Lincoln-Sudbury
@@ -87,3 +76,4 @@ graphregion(color(white)) bgcolor(white) subtitle("Student Enrollment and Fracti
 graph export ./figures/enrollment_race2.png, replace
 
 erase ./data/nejm_data.dta
+erase ./data/race_by_district.dta
