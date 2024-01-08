@@ -24,17 +24,6 @@ rename staff staff_fte
 sort district
 save `temp2'
 
-*Getting list of districts that are vocational/technical, to drop
-import delimited using "./data/MA_district_enrollment_bygrade", varnames(1) clear
-rename district_name district
-keep district county charter voctech
-replace charter=0 if charter==.
-replace voctech=0 if voctech==.
-drop if district==""
-drop if district=="State Totals"
-sort district
-save `temp3'
-
 *Getting list of 72 districts studied by Cowger et al (source: DESE spreadsheet)
 import delimited using ./data/nejm_unmasking_dates.csv, varnames(1) clear
 replace district="Dover-Sherborn" if district=="DoverSherborn"
@@ -53,10 +42,6 @@ keep if _m==3
 drop _m
 sort district 
 merge m:1 district using `temp2'
-keep if _m==3 
-drop _m
-sort district 
-merge m:1 district using `temp3'
 keep if _m==3 
 drop _m
 sort district
@@ -157,9 +142,11 @@ table supergroup post, statistic(mean log_studstaff) nformat(%9.2f) nototal
 table supergroup post, statistic(mean log_stud) nformat(%9.2f) nototal
 table supergroup post, statistic(mean log_staff) nformat(%9.2f) nototal
 
-*Implement D-i-D in Regression framework
+*Note: the remaining values in Table 2 are not calculated in this code. Interested users will need to manually calculate the differences, and the differences in those differences, using Excel or some other spreadsheet program.
+
+*An alternative is to calculate the D-i-D estimates in a Regression framework as we show below.
 *E.g. regress student cases per capita in each group on indicators for treatment, post-intervention, and their interaction
-*This will generate the same results using the Table command above.
+*This will generate the same results as using the Table command above.
 
 *Defining BosChel as treatment group and other two groups as successive control groups.
 gen treat=supergroup==1
