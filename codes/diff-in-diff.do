@@ -24,6 +24,17 @@ rename staff staff_fte
 sort district
 save `temp2'
 
+*Getting list of districts that are vocational/technical, to drop
+import delimited using "./data/MA_district_enrollment_bygrade", varnames(1) clear
+rename district_name district
+keep district county charter voctech
+replace charter=0 if charter==.
+replace voctech=0 if voctech==.
+drop if district==""
+drop if district=="State Totals"
+sort district
+save `temp3'
+
 *Getting list of 72 districts studied by Cowger et al (source: DESE spreadsheet)
 import delimited using ./data/nejm_unmasking_dates.csv, varnames(1) clear
 replace district="Dover-Sherborn" if district=="DoverSherborn"
@@ -42,6 +53,10 @@ keep if _m==3
 drop _m
 sort district 
 merge m:1 district using `temp2'
+keep if _m==3 
+drop _m
+sort district 
+merge m:1 district using `temp3'
 keep if _m==3 
 drop _m
 sort district
@@ -87,7 +102,7 @@ drop if voctech==1
 drop charter voctech
 
 
-*Make 3 groups: 
+*Make 5 groups: 
 *1. Boston and Chelsea
 *2. Unmask week=march 3
 *3. Unmask week=march 10
@@ -142,11 +157,9 @@ table supergroup post, statistic(mean log_studstaff) nformat(%9.2f) nototal
 table supergroup post, statistic(mean log_stud) nformat(%9.2f) nototal
 table supergroup post, statistic(mean log_staff) nformat(%9.2f) nototal
 
-*Note: the remaining values in Table 2 are not calculated in this code. Interested users will need to manually calculate the differences, and the differences in those differences, using Excel or some other spreadsheet program.
-
-*An alternative is to calculate the D-i-D estimates in a Regression framework as we show below.
+*Implement D-i-D in Regression framework
 *E.g. regress student cases per capita in each group on indicators for treatment, post-intervention, and their interaction
-*This will generate the same results as using the Table command above.
+*This will generate the same results using the Table command above.
 
 *Defining BosChel as treatment group and other two groups as successive control groups.
 gen treat=supergroup==1
@@ -157,15 +170,26 @@ gen post_treat=post*treat
 *Verify that the coefficient on post_treat in each regression below matches the diff-in-diff calculated manually
 
 *First, students
+eststo clear
 reg stud_case_percap treat post post_treat if (treat|control1)
+eststo stud1
 reg stud_case_percap treat post post_treat if (treat|control2)
+eststo stud2
 
 *Next, staff
 reg staff_case_percap treat post post_treat if (treat|control1)
+eststo staff1
 reg staff_case_percap treat post post_treat if (treat|control2)
+eststo staff2
 
 *Finally, students+staff
 reg staffstud_percap treat post post_treat if (treat|control1)
+eststo studstaff1
 reg staffstud_percap treat post post_treat if (treat|control2)
+eststo studstaff2
+
+esttab stud1 stud2 staff1 staff2 studstaff1 studstaff2, p
+
+*The relevant coefficient is on post_treat in each column of the generated table. Users can verify that these coefficients, and the associated p-values, exactly match the values for the diff-in-diff estimates presented in Table 2.
 
 
