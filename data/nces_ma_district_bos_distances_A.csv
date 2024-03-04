@@ -1,0 +1,425 @@
+NCES District ID,State District ID,District Name,County Name*,City,km
+2500086,MA-0436,Community Charter School of Cambridge (District),Middlesex County,Cambridge,3.4
+2500046,MA-0487,Prospect Hill Academy Charter (District),Middlesex County,Cambridge,4.1
+2503270,MA-0049,Cambridge,Middlesex County,Cambridge,4.2
+2500533,MA-0480,UP Academy Charter School of Boston (District),Suffolk County,Boston,4.9
+2500075,MA-0410,Excel Academy Charter (District),Suffolk County,East Boston,5.6
+2500026,MA-0437,City on a Hill Charter Public School (District),Suffolk County,Roxbury,5.8
+2510890,MA-0274,Somerville,Middlesex County,Somerville,6
+2500543,MA-0407,Dudley Street Neighborhood Charter School (District),Suffolk County,Boston,6.3
+2500054,MA-0452,Edward M. Kennedy Academy for Health Careers (Horace Mann Ch,Suffolk County,Boston,6.4
+2502790,MA-0035,Boston,Suffolk County,Roxbury,6.6
+2500049,MA-0424,Boston Day and Evening Academy Charter (District),Suffolk County,Roxbury,6.6
+2500063,MA-0484,Roxbury Preparatory Charter (District),Suffolk County,Roxbury,7.3
+2500527,MA-0417,Bridge Boston Charter School (District),Suffolk County,Roxbury,7.6
+2503540,MA-0057,Chelsea,Suffolk County,Chelsea,7.7
+2500053,MA-0449,Boston Collegiate Charter (District),Suffolk County,Dorchester,7.8
+2500090,MA-0493,Phoenix Academy Charter Public High School Chelsea (District,Suffolk County,Chelsea,7.8
+2500583,MA-0564,Shore Educational Collaborative,Suffolk County,Chelsea,8.3
+2500060,MA-0439,Conservatory Lab Charter (District),Suffolk County,Dorchester,8.5
+2504770,MA-0093,Everett,Middlesex County,Everett,8.6
+2500518,MA-0494,Pioneer Charter School of Science (District),Middlesex County,Everett,9.3
+2513170,MA-0346,Winthrop,Suffolk County,Winthrop,9.7
+2500077,MA-0419,Helen Y. Davis Leadership Academy Charter Public (District),Suffolk County,Boston,10.1
+2500029,MA-0444,Neighborhood House Charter (District),Suffolk County,Dorchester,10.5
+2507170,MA-0165,Malden,Middlesex County,Malden,10.7
+2500066,MA-0469,MATCH Charter Public School (District),Suffolk County,Boston,10.7
+2500526,MA-0411,Boston Green Academy Horace Mann Charter School (District),Suffolk County,Brighton,11
+2507560,MA-0176,Medford,Middlesex County,Medford,11
+2500022,MA-0420,Benjamin Banneker Charter Public (District),Middlesex County,Cambridge,11.1
+2500549,MA-3505,UP Academy Charter School of Dorchester (District),Suffolk County,Boston,11.1
+2510050,MA-0248,Revere,Suffolk County,Revere,11.9
+2511150,MA-0370,Institutional Schools,Middlesex County,Malden,13.3
+2500070,MA-0438,Codman Academy Charter Public (District),Suffolk County,Dorchester,14
+2501980,MA-0010,Arlington,Middlesex County,Arlington,14.1
+2500055,MA-0470,Mystic Valley Regional Charter (District),Middlesex County,Malden,15
+2500537,MA-0463,KIPP Academy Boston Charter School (District),Suffolk County,Mattapan,15.3
+2513110,MA-0344,Winchester,Middlesex County,Winchester,15.3
+2509870,MA-0243,Quincy,Norfolk County,Quincy,15.7
+2507620,MA-0178,Melrose,Middlesex County,Melrose,15.9
+2502490,MA-0026,Belmont,Middlesex County,Belmont,16.1
+2508610,MA-0207,Newton,Middlesex County,Newtonville,16.1
+2512180,MA-0314,Watertown,Middlesex County,Watertown,16.2
+2500573,MA-0562,SEEM Collaborative,Middlesex County,Stoneham,16.7
+2511220,MA-0284,Stoneham,Middlesex County,Stoneham,16.7
+2500546,MA-3506,Pioneer Charter School of Science II (District),Essex County,Saugus,17.4
+2507980,MA-0189,Milton,Norfolk County,Milton,17.5
+2510500,MA-0262,Saugus,Essex County,Saugus,17.6
+2500071,MA-0428,Brooke Charter School (District),Suffolk County,Roslindale,18.5
+2506840,MA-0155,Lexington,Middlesex County,Lexington,18.9
+2507110,MA-0163,Lynn,Essex County,Lynn,19.6
+2500080,MA-0416,Boston Preparatory Charter Public (District),Suffolk County,Hyde Park,19.9
+2511430,MA-0291,Swampscott,Essex County,Swampscott,21
+2503150,MA-0046,Brookline,Norfolk County,Brookline,21.4
+2500082,MA-0429,KIPP Academy Lynn Charter (District),Essex County,Lynn,21.5
+2508960,MA-0853,Northeast Metropolitan Regional Vocational Technical,Middlesex County,Wakefield,21.5
+2500039,MA-0481,Boston Renaissance Charter Public (District),Suffolk County,Hyde Park,21.6
+2508220,MA-0196,Nahant,Essex County,Nahant,21.7
+2502940,MA-0040,Braintree,Norfolk County,Braintree,22.2
+2507140,MA-0164,Lynnfield,Essex County,Lynnfield,22.8
+2500021,MA-0412,Academy Of the Pacific Rim Charter Public (District),Suffolk County,Hyde Park,23.4
+2512000,MA-0308,Waltham,Middlesex County,Waltham,24.2
+2507260,MA-0168,Marblehead,Essex County,Marblehead,25.1
+2512750,MA-0330,Weston,Middlesex County,Weston,25.1
+2511910,MA-0305,Wakefield,Middlesex County,Wakefield,25.3
+2509990,MA-0246,Reading,Middlesex County,Reading,25.9
+2503240,MA-0048,Burlington,Middlesex County,Burlington,26.5
+2500574,MA-0534,LABBB Collaborative,Middlesex County,Burlington,26.5
+2513200,MA-0347,Woburn,Middlesex County,Woburn,26.7
+2512270,MA-0317,Wellesley,Norfolk County,Wellesley,26.9
+2500034,MA-0464,Marblehead Community Charter Public (District),Essex County,Marblehead,27.5
+2513050,MA-0342,Wilmington,Middlesex County,Wilmington,27.9
+2506150,MA-0133,Holbrook,Norfolk County,Holbrook,28.5
+2512840,MA-0336,Weymouth,Norfolk County,Weymouth,28.6
+2500578,MA-0550,ACCEPT Education Collaborative,Middlesex County,Natick,30
+2502740,MA-0806,Blue Hills Regional Vocational Technical,Norfolk County,Canton,30.3
+2508370,MA-0199,Needham,Norfolk County,Needham,30.6
+2510615,MA-0871,Shawsheen Valley Regional Vocational Technical,Middlesex County,Billerica,30.7
+2508820,MA-0217,North Reading,Middlesex County,North Reading,30.9
+2509930,MA-0244,Randolph,Norfolk County,Randolph,30.9
+2509360,MA-0229,Peabody,Essex County,Peabody,31.1
+2500581,MA-0574,South Shore Educational Collaborative (SSEC),Plymouth County,Hingham,31.3
+2500554,MA-0817,Essex North Shore Agricultural and Technical School District,Essex County,Hathorne,31.7
+2503300,MA-0050,Canton,Norfolk County,Canton,32.1
+2512210,MA-0315,Wayland,Middlesex County,Wayland,33
+2500068,MA-0418,Christa McAuliffe Charter School (District),Middlesex County,Framingham,33.1
+2500040,MA-0488,South Shore Charter Public (District),Plymouth County,Norwell,33.8
+2501650,MA-0001,Abington,Plymouth County,Abington,34
+2507985,MA-0830,Minuteman Regional Vocational Technical,Middlesex County,Lexington,34
+2510380,MA-0258,Salem,Essex County,Salem,34
+2502250,MA-0018,Avon,Norfolk County,Avon,35
+2502400,MA-0023,Bedford,Middlesex County,Bedford,35
+2504980,MA-0100,Framingham,Middlesex County,Framingham,35.6
+2506900,MA-0157,Lincoln,Middlesex County,Lincoln,35.6
+2503990,MA-0071,Danvers,Essex County,Danvers,35.7
+2504050,MA-0073,Dedham,Norfolk County,Dedham,35.7
+2511250,MA-0285,Stoughton,Norfolk County,Stoughton,36
+2506090,MA-0131,Hingham,Plymouth County,Hingham,36.4
+2500569,MA-0540,Valley Collaborative,Middlesex County,Billerica,36.4
+2509060,MA-0220,Norwood,Norfolk County,Norwood,36.5
+2500084,MA-0485,Salem Academy Charter (District),Essex County,Salem,36.6
+2507410,MA-0705,Masconomet,Essex County,Boxford,36.9
+2510170,MA-0251,Rockland,Plymouth County,Rockland,37.1
+2504260,MA-0078,Dover,Norfolk County,Dover,37.2
+2504290,MA-0655,Dover-Sherborn,Norfolk County,Dover,37.2
+2510710,MA-0269,Sherborn,Norfolk County,Dover,37.2
+2508340,MA-0198,Natick,Middlesex County,Natick,37.5
+2502640,MA-0030,Beverly,Essex County,Beverly,37.8
+2510930,MA-0873,South Shore Regional Vocational Technical,Plymouth County,Hanover,38
+2500562,MA-0546,Northshore Education Consortium,Essex County,Beverly,38.6
+2501950,MA-0009,Andover,Essex County,Andover,38.8
+2511580,MA-0295,Tewksbury,Middlesex County,Tewksbury,38.9
+2509030,MA-0219,Norwell,Plymouth County,Norwell,39.1
+2500577,MA-0544,North River Collaborative,Plymouth County,Rockland,39.2
+2512810,MA-0335,Westwood,Norfolk County,Westwood,39.4
+2503090,MA-0044,Brockton,Plymouth County,Brockton,39.6
+2506930,MA-0695,Lincoln-Sudbury,Middlesex County,Sudbury,39.6
+2500556,MA-3902,TEC Connections Academy Commonwealth Virtual School District,Norfolk County,East Walpole,39.8
+2500566,MA-0576,The Education Cooperative (TEC),Norfolk County,E. Walpole,39.8
+2505670,MA-0675,Hamilton-Wenham,Essex County,Wenham,40.2
+2511060,MA-0829,South Middlesex Regional Vocational Technical,Middlesex County,Framingham,40.5
+2500580,MA-0516,C.A.S.E. Concord Area SPED Collaborative,Middlesex County,Concord,40.8
+2503840,MA-0067,Concord,Middlesex County,Concord,40.8
+2503870,MA-0640,Concord-Carlisle,Middlesex County,Concord,40.8
+2511340,MA-0288,Sudbury,Middlesex County,Sudbury,40.8
+2503330,MA-0051,Carlisle,Middlesex County,Carlisle,41.3
+2502880,MA-0038,Boxford,Essex County,Boxford,41.6
+2505790,MA-0122,Hanover,Plymouth County,Hanover,41.6
+2507830,MA-0184,Middleton,Essex County,Boxford,41.6
+2511670,MA-0298,Topsfield,Essex County,Boxford,41.6
+2512930,MA-0780,Whitman-Hanson,Plymouth County,Whitman,41.6
+2500585,MA-0528,Collaborative for Regional Educational Service and Training,Essex County,Andover,42
+2505470,MA-0823,Greater Lawrence Regional Vocational Technical,Essex County,Andover,42.1
+2508650,MA-0915,Norfolk County Agricultural,Norfolk County,Walpole,42.1
+2502670,MA-0031,Billerica,Middlesex County,Billerica,42.3
+2510620,MA-0266,Sharon,Norfolk County,Sharon,43.2
+2503780,MA-0065,Cohasset,Norfolk County,Cohasset,43.8
+2504620,MA-0088,Easton,Bristol County,North Easton,44.1
+2511970,MA-0307,Walpole,Norfolk County,Walpole,44.1
+2507500,MA-0174,Maynard,Middlesex County,Maynard,44.5
+2510560,MA-0264,Scituate,Plymouth County,Scituate,44.5
+2500559,MA-3513,New Heights Charter School of Brockton (District),Plymouth County,Brockton,45.1
+2509420,MA-0231,Pembroke,Plymouth County,Pembroke,46.8
+2507530,MA-0175,Medfield,Norfolk County,Medfield,47
+2500027,MA-0440,Community Day Charter Public School (District),Essex County,Lawrence,47.3
+2512420,MA-0323,West Bridgewater,Plymouth County,West Bridgewater,47.4
+2500590,MA-3518,Phoenix Academy Public Charter High School Lawrence (Distric,Essex County,Lawrence,47.5
+2508700,MA-0211,North Andover,Essex County,North Andover,47.7
+2502100,MA-0014,Ashland,Middlesex County,Ashland,48
+2506660,MA-0149,Lawrence,Essex County,Lawrence,48
+2505220,MA-0105,Georgetown,Essex County,Georgetown,48.5
+2507350,MA-0171,Marshfield,Plymouth County,Marshfield,48.5
+2511020,MA-0872,Southeastern Regional Vocational Technical,Bristol County,South Easton,48.5
+2507740,MA-0181,Methuen,Essex County,Methuen,48.6
+2500032,MA-0454,Lawrence Family Development Charter (District),Essex County,Lawrence,48.7
+2504950,MA-0099,Foxborough,Norfolk County,Foxborough,49
+2506480,MA-0144,Ipswich,Essex County,Ipswich,49
+2506420,MA-0142,Hull,Plymouth County,Hull,49.1
+2508910,MA-0730,Northboro-Southboro,Worcester County,Southborough,49.1
+2508880,MA-0213,Northborough,Worcester County,Southborough,49.1
+2510980,MA-0276,Southborough,Worcester County,Southborough,49.1
+2500065,MA-0456,Lowell Community Charter Public (District),Middlesex County,Lowell,49.4
+2501710,MA-0600,Acton-Boxborough,Middlesex County,Acton,49.5
+2503510,MA-0056,Chelmsford,Middlesex County,Chelmsford,49.5
+2500067,MA-0698,Manchester Essex Regional,Essex County,Manchester,49.6
+2507020,MA-0160,Lowell,Middlesex County,Lowell,49.8
+2500033,MA-0458,Lowell Middlesex Academy Charter (District),Middlesex County,Lowell,49.9
+2507320,MA-0170,Marlborough,Middlesex County,Marlborough,51.6
+2503030,MA-0625,Bridgewater-Raynham,Plymouth County,Bridgewater,51.9
+2500545,MA-3503,Collegiate Charter School of Lowell (District),Middlesex County,Lowell,52
+2507920,MA-0187,Millis,Norfolk County,Millis,52.6
+2506510,MA-0690,King Philip,Norfolk County,Norfolk,52.7
+2508640,MA-0208,Norfolk,Norfolk County,Norfolk,52.7
+2513290,MA-0350,Wrentham,Norfolk County,Wrentham,52.7
+2500052,MA-0446,Foxborough Regional Charter (District),Norfolk County,Foxborough,52.8
+2506240,MA-0136,Holliston,Middlesex County,Holliston,53.3
+2507230,MA-0167,Mansfield,Bristol County,Mansfield,53.4
+2504410,MA-0082,Duxbury,Plymouth County,Duxbury,53.5
+2504440,MA-0083,East Bridgewater,Plymouth County,East Bridgewater,53.9
+2511740,MA-0773,Triton,Essex County,Byfield,54
+2500083,MA-0455,Hill View Montessori Charter Public (District),Essex County,Haverhill,55.1
+2509450,MA-0745,Pentucket,Essex County,West Newbury,55.5
+2504320,MA-0079,Dracut,Middlesex County,Dracut,56.1
+2508320,MA-0852,Nashoba Valley Regional Vocational Technical,Middlesex County,Westford,56.1
+2512600,MA-0321,Westborough,Worcester County,Westborough,56.2
+2500025,MA-0435,Innovation Academy Charter (District),Middlesex County,Tyngsborough,56.5
+2505480,MA-0828,Greater Lowell Regional Vocational Technical,Middlesex County,Tyngsborough,56.7
+2500582,MA-0504,Bi-County Collaborative (BICO),Norfolk County,Franklin,57.5
+2509690,MA-0238,Plainville,Norfolk County,Plainville,57.5
+2512660,MA-0326,Westford,Bristol County,Westford,57.5
+2505010,MA-0101,Franklin,Norfolk County,Franklin,57.6
+2500085,MA-0430,Advanced Math and Science Academy Charter (District),Middlesex County,Marlborough,57.8
+2506330,MA-0139,Hopkinton,Middlesex County,Hopkinton,57.8
+2505280,MA-0107,Gloucester,Essex County,Gloucester,58.3
+2500572,MA-0502,Assabet Valley Collaborative,Middlesex County,Marlborough,59
+2505610,MA-0118,Halifax,Plymouth County,Kingston,59.1
+2506540,MA-0145,Kingston,Plymouth County,Kingston,59.1
+2509780,MA-0240,Plympton,Plymouth County,Kingston,59.1
+2510830,MA-0760,Silver Lake,Plymouth County,Kingston,59.1
+2500062,MA-0482,River Valley Charter (District),Essex County,Newburyport,59.4
+2508580,MA-0204,Newburyport,Essex County,Newburyport,59.7
+2505970,MA-0128,Haverhill,Essex County,Haverhill,61.2
+2509000,MA-0218,Norton,Bristol County,Norton,62.3
+2511760,MA-0301,Tyngsborough,Middlesex County,Tyngsborough,62.7
+2511520,MA-0293,Taunton,Bristol County,Taunton,62.9
+2500568,MA-0548,Pilgrim Area Collaborative (PAC),Plymouth County,Plymouth,63.1
+2502110,MA-0801,Assabet Valley Regional Vocational Technical,Middlesex County,Marlborough,63.3
+2506960,MA-0158,Littleton,Middlesex County,Littleton,63.3
+2508730,MA-0212,North Attleborough,Bristol County,North Attleborough,63.8
+2502710,MA-0805,Blackstone Valley Regional Vocational Technical,Worcester County,Upton,64.2
+2507770,MA-0182,Middleborough,Plymouth County,Middleborough,64.7
+2507860,MA-0185,Milford,Worcester County,Milford,64.7
+2500589,MA-3517,Map Academy Charter School (District),Plymouth County,Plymouth,64.8
+2501860,MA-0007,Amesbury,Essex County,Amesbury,65.2
+2509720,MA-0239,Plymouth,Plymouth County,Plymouth,65.3
+2503080,MA-0810,Bristol-Plymouth Regional Vocational Technical,Bristol County,Taunton,65.5
+2512950,MA-0885,Whittier Regional Vocational Technical,Essex County,Haverhill,65.5
+2510200,MA-0252,Rockport,Essex County,Rockport,65.6
+2500057,MA-0483,Rising Tide Charter Public (District),Plymouth County,Plymouth,66
+2502190,MA-0016,Attleboro,Bristol County,Attleboro,66.2
+2506390,MA-0141,Hudson,Middlesex County,Hudson,66.2
+2507680,MA-0710,Mendon-Upton,Worcester County,Mendon,66.6
+2510770,MA-0271,Shrewsbury,Worcester County,Shrewsbury,66.7
+2500561,MA-0558,READS Collaborative,Plymouth County,Middleborough,66.9
+2506300,MA-0138,Hopedale,Worcester County,Hopedale,67.2
+2502520,MA-0027,Berkley,Bristol County,Berkley,67.7
+2500030,MA-0447,Benjamin Franklin Classical Charter Public (District),Norfolk County,Franklin,68.9
+2505500,MA-0673,Groton-Dunstable,Middlesex County,Groton,69.3
+2508310,MA-0725,Nashoba,Worcester County,Bolton,69.6
+2513322,MA-3519,Worcester Cultural Academy Charter Public School,†,Worcester,70.7
+2503070,MA-0910,Bristol County Agricultural,Bristol County,Dighton,71
+2505370,MA-0110,Grafton,Worcester County,Grafton,71.1
+2507590,MA-0177,Medway,Norfolk County,Medway,71.4
+2500542,MA-0616,Ayer Shirley School District,Middlesex County,Ayer,71.6
+2508940,MA-0214,Northbridge,Worcester County,Whitinsville,71.6
+2507890,MA-0186,Millbury,Worcester County,Millbury,72.3
+2505880,MA-0125,Harvard,Worcester County,Harvard,72.5
+2502460,MA-0025,Bellingham,Norfolk County,Bellingham,72.7
+2500038,MA-0478,Francis W. Parker Charter Essential (District),Middlesex County,Devens,73.1
+2511735,MA-0878,Tri-County Regional Vocational Technical,Norfolk County,Franklin,73.6
+2503750,MA-0064,Clinton,Worcester County,Clinton,74.6
+2500045,MA-0486,Learning First Charter Public School (District),Worcester County,Worcester,74.7
+2510590,MA-0265,Seekonk,Bristol County,Seekonk,75
+2511850,MA-0304,Uxbridge,Worcester County,Uxbridge,75.7
+2505070,MA-0665,Freetown-Lakeville,Plymouth County,Lakeville,76.2
+2513230,MA-0348,Worcester,Worcester County,Worcester,76.2
+2502220,MA-0017,Auburn,Worcester County,Auburn,76.5
+2502580,MA-0620,Berlin-Boylston,Worcester County,Boylston,77.4
+2500036,MA-0468,Ma Academy for Math and Science,Worcester County,Worcester,78.1
+2503360,MA-0052,Carver,Plymouth County,Carver,78.2
+2504200,MA-0650,Dighton-Rehoboth,Bristol County,North Dighton,78.4
+2511400,MA-0290,Sutton,Worcester County,Sutton,78.9
+2510860,MA-0273,Somerset,Bristol County,Somerset,79.5
+2500541,MA-0763,Somerset Berkley Regional School District,Bristol County,Somerset,79.5
+2500575,MA-0524,Keystone Educational Collaborative,Middlesex County,Shirley,80.9
+2509140,MA-0855,Old Colony Regional Vocational Technical,Plymouth County,Rochester,81
+2512390,MA-0322,West Boylston,Worcester County,West Boylston,81.7
+2500051,MA-0445,Abby Kelley Foster Charter Public (District),Worcester County,Worcester,82.5
+2508790,MA-0735,North Middlesex,Middlesex County,Towsend,82.5
+2500565,MA-0518,Central Massachusetts SPED Collaborative,Worcester County,Worcester,82.9
+2502715,MA-0622,Blackstone-Millville,Worcester County,Blackstone,83.2
+2504830,MA-0095,Fall River,Bristol County,Fall River,83.2
+2505485,MA-0821,Greater Fall River Regional Vocational Technical,Bristol County,Fall River,83.3
+2509270,MA-0226,Oxford,Worcester County,Oxford,85.1
+2511460,MA-0292,Swansea,Bristol County,Swansea,85.6
+2500552,MA-3509,Argosy Collegiate Charter School (District),Bristol County,Fall River,85.7
+2506780,MA-0153,Leominster,Worcester County,Leominster,85.7
+2506720,MA-0151,Leicester,Worcester County,Leicester,86.1
+2508440,MA-0825,Greater New Bedford Regional Vocational Technical,Bristol County,New Bedford,86.3
+2501740,MA-0003,Acushnet,Bristol County,Acushnet,87.1
+2511050,MA-0876,Southern Worcester County Regional Vocational District,Worcester County,Charlton,88
+2512060,MA-0310,Wareham,Plymouth County,Wareham,88.3
+2500525,MA-0409,Alma del Mar Charter School (District),Bristol County,New Bedford,89.1
+2504230,MA-0077,Douglas,Worcester County,Douglas,89.4
+2507080,MA-0162,Lunenburg,Worcester County,Lunenburg,90.4
+2500041,MA-0491,Atlantis Charter (District),Bristol County,Fall River,91.1
+2504890,MA-0097,Fitchburg,Worcester County,Fitchburg,91.5
+2511880,MA-0775,Wachusett,Worcester County,Jefferson,92.4
+2500002,MA-0767,Spencer-E Brookfield,Worcester County,Spencer,93
+2500519,MA-0496,Global Learning Charter Public (District),Bristol County,New Bedford,93.1
+2508430,MA-0201,New Bedford,Bristol County,New Bedford,94.4
+2512780,MA-0331,Westport,Bristol County,Westport,94.5
+2510470,MA-0261,Sandwich,Barnstable County,Sandwich,95.2
+2500073,MA-0474,Sizer School: A North Central Charter Essential (District),Worcester County,Fitchburg,95.6
+2504360,MA-0658,Dudley-Charlton Reg,Worcester County,Dudley,95.7
+2511010,MA-0277,Southbridge,Worcester County,Southbridge,95.8
+2512240,MA-0316,Webster,Worcester County,Webster,95.8
+2500560,MA-0570,Southeastern Mass. Educational Collaborative (SMEC),Bristol County,Dartmouth,96.8
+2500587,MA-3515,Old Sturbridge Academy Charter Public School (District),Worcester County,Sturbridge,97.1
+2500579,MA-0522,South Coast Educational Collaborative,Bristol County,Swansea,97.4
+2507290,MA-0169,Marion,Plymouth County,Mattapoisett,98.2
+2507470,MA-0173,Mattapoisett,Plymouth County,Mattapoisett,98.2
+2508050,MA-0832,Montachusett Regional Vocational Technical,Worcester County,Fitchburg,98.2
+2509150,MA-0740,Old Rochester,Plymouth County,Mattapoisett,98.2
+2510140,MA-0250,Rochester,Plymouth County,Mattapoisett,98.2
+2500570,MA-0514,CAPS Education Collaborative,Worcester County,Westminster,98.7
+2504020,MA-0072,Dartmouth,Bristol County,Dartmouth,98.8
+2504800,MA-0094,Fairhaven,Bristol County,Fairhaven,99.6
+2502820,MA-0036,Bourne,Barnstable County,Bourne,100.7
+2511800,MA-0879,Upper Cape Cod Regional Vocational Technical,Barnstable County,Bourne,101.2
+2500571,MA-0572,Southern Worcester County Educational Collaborative,Worcester County,Southbridge,102.2
+2503060,MA-0043,Brimfield,Worcester County,Fiskdale,103.9
+2503120,MA-0045,Brookfield,Worcester County,Fiskdale,103.9
+2506210,MA-0135,Holland,Worcester County,Fiskdale,103.9
+2511310,MA-0287,Sturbridge,Worcester County,Fiskdale,103.9
+2511490,MA-0770,Tantasqua,Worcester County,Fiskdale,103.9
+2511940,MA-0306,Wales,Worcester County,Fiskdale,103.9
+2502040,MA-0610,Ashburnham-Westminster,Worcester County,Ashburnham,106.4
+2505130,MA-0103,Gardner,Worcester County,Gardner,108.7
+2507440,MA-0172,Mashpee,Barnstable County,Mashpee,108.9
+2500563,MA-0512,Cape Cod Collaborative,Barnstable County,Osterville,111.1
+2500001,MA-0753,Quabbin,Worcester County,Barre,111.7
+2512100,MA-0778,Quaboag Regional,Worcester County,Warren,113
+2502310,MA-0020,Barnstable,Barnstable County,Hyannis,114.6
+2509540,MA-0234,Petersham,Worcester County,Petersham,114.7
+2500058,MA-0489,Sturgis Charter Public (District),Barnstable County,Hyannis,114.9
+2504860,MA-0096,Falmouth,Barnstable County,East Falmouth,115.5
+2508280,MA-0720,Narragansett,Worcester County,Baldwinville,116.4
+2508760,MA-0215,North Brookfield,Worcester County,North Brookfield,119.3
+2504140,MA-0645,Dennis-Yarmouth,Barnstable County,South Yarmouth,120.8
+2513080,MA-0343,Winchendon,Worcester County,Winchendon,122.5
+2509300,MA-0227,Palmer,Hampden County,Palmer,122.7
+2509310,MA-0860,Pathfinder Regional Vocational Technical,Hampden County,Palmer,123.5
+2508040,MA-0191,Monson,Hampden County,Monson,127
+2502160,MA-0615,Athol-Royalston,Worcester County,Athol,130.4
+2503310,MA-0815,Cape Cod Regional Vocational Technical,Barnstable County,Harwich,131.3
+2512030,MA-0309,Ware,Hampshire County,Ware,132.4
+2507050,MA-0161,Ludlow,Hampden County,Ludlow,133.4
+2505730,MA-0680,Hampden-Wilbraham,Hampden County,Wilbraham,133.8
+2502430,MA-0024,Belchertown,Hampshire County,Belchertown,134
+2500024,MA-0432,Cape Cod Lighthouse Charter (District),Barnstable County,East Harwich,136.2
+2509180,MA-0223,Orange,Franklin County,Orange,136.4
+2509900,MA-0755,Ralph C Mahar,Franklin County,Orange,136.4
+2500028,MA-0441,Springfield International Charter (District),Hampden County,Springfield,139
+2509090,MA-0089,Edgartown,Dukes County,Vineyard Haven,140.3
+2507380,MA-0700,Martha's Vineyard,Dukes County,Vineyard Haven,140.3
+2504650,MA-0221,Oak Bluffs,Dukes County,Vineyard Haven,140.3
+2512570,MA-0296,Tisbury,Dukes County,Vineyard Haven,140.3
+2500043,MA-0774,Up-Island Regional,Dukes County,Vineyard Haven,140.3
+2500557,MA-3510,Springfield Preparatory Charter School (District),Hampden County,Springfield,140.9
+2500550,MA-3502,Baystate Academy Charter Public School (District),Hampden County,Springfield,141.5
+2500544,MA-0712,Monomoy Regional School District,Barnstable County,Chatham,143
+2502970,MA-0041,Brewster,Barnstable County,Orleans,143.6
+2504530,MA-0085,Eastham,Barnstable County,Orleans,143.6
+2504560,MA-0660,Nauset,Barnstable County,Orleans,143.6
+2509210,MA-0224,Orleans,Barnstable County,Orleans,143.6
+2512300,MA-0318,Wellfleet,Barnstable County,Orleans,143.6
+2503660,MA-0061,Chicopee,Hampden County,Chicopee,143.7
+2504710,MA-0091,Erving,Franklin County,Erving,144.2
+2506810,MA-0154,Leverett,Franklin County,Erving,144.2
+2508530,MA-0728,New Salem-Wendell,Franklin County,Erving,144.2
+2510800,MA-0272,Shutesbury,Franklin County,Erving,144.2
+2505400,MA-0111,Granby,Hampshire County,Granby,144.9
+2500555,MA-3508,Phoenix Academy Public Charter High School Springfield (Dist,Hampden County,Springfield,145.1
+2500522,MA-0499,Hampden Charter School of Science East (District),Hampden County,Chicopee,145.5
+2500547,MA-3501,Paulo Freire Social Justice Charter School (District),Hampden County,Chicopee,145.6
+2500586,MA-3514,Libertas Academy Charter School (District),Hampden County,Springfield,145.7
+2506270,MA-0137,Holyoke,Hampden County,Holyoke,146
+2511130,MA-0281,Springfield,Hampden County,Springfield,146.1
+2510920,MA-0278,South Hadley,Hampshire County,South Hadley,146.9
+2500536,MA-0498,Veritas Preparatory Charter School (District),Hampden County,Springfield,147.5
+2512510,MA-0332,West Springfield,Hampden County,West Springfield,147.9
+2500588,MA-3516,Hampden Charter School of Science West (District),Hampden County,West Springfield,148.2
+2500089,MA-0492,Martin Luther King Jr. Charter School of Excellence (Distric,Hampden County,Springfield,148.3
+2500584,MA-0536,Lower Pioneer Valley Educational Collaborative,Hampden County,West Springfield,149.8
+2501890,MA-0008,Amherst,Hampshire County,Amherst,150.4
+2501920,MA-0605,Amherst-Pelham,Hampshire County,Amherst,150.4
+2509390,MA-0230,Pelham,Hampshire County,Amherst,150.4
+2500087,MA-0453,Holyoke Community Charter (District),Hampden County,Holyoke,150.6
+2500044,MA-0479,Pioneer Valley Performing Arts Charter Public (District),Hampshire County,South Hadley,150.7
+2500035,MA-0466,Martha's Vineyard Charter Public School (District),Dukes County,West Tisbury,151.8
+2506990,MA-0159,Longmeadow,Hampden County,Longmeadow,153.3
+2504500,MA-0087,East Longmeadow,Hampden County,East Longmeadow,156.3
+2512630,MA-0325,Westfield,Hampden County,Westfield,156.5
+2501800,MA-0005,Agawam,Hampden County,Feeding Hills,158.4
+2505020,MA-0818,Franklin County Regional Vocational Technical,Franklin County,Turners Falls,158.4
+2504590,MA-0086,Easthampton,Hampshire County,Easthampton,160.4
+2509600,MA-0750,Pioneer Valley,Franklin County,Northfield,160.6
+2505270,MA-0674,Gill-Montague,Franklin County,Turners Falls,160.8
+2500031,MA-0450,Hilltown Cooperative Charter Public (District),Hampshire County,Easthampton,163.2
+2500013,MA-0766,Southwick-Tolland-Granville Regional School District,Hampden County,Southwick,165.8
+2505490,MA-0114,Greenfield,Franklin County,Greenfield,166
+2500567,MA-0532,Collaborative for Educational Services,Hampshire County,Northampton,166.7
+2500551,MA-3901,Greater Commonwealth Virtual District,Franklin County,Greenfield,166.9
+2508250,MA-0197,Nantucket,Nantucket County,Nantucket,166.9
+2500076,MA-0413,Four Rivers Charter Public (District),Franklin County,Greenfield,169.1
+2508860,MA-0406,Northampton-Smith Vocational Agricultural,Hampshire County,Northampton,169.9
+2511730,MA-0300,Truro,Barnstable County,Truro,171.2
+2505580,MA-0117,Hadley,Hampshire County,Hadley,171.3
+2505160,MA-0672,Gateway,Hampshire County,Huntington,173.5
+2500517,MA-0497,Pioneer Valley Chinese Immersion Charter (District),Hampshire County,Hadley,174.5
+2505740,MA-0683,Hampshire,Hampshire County,Westhampton,174.6
+2510950,MA-0275,Southampton,Hampshire County,Westhampton,174.6
+2512690,MA-0327,Westhampton,Hampshire County,Westhampton,174.6
+2512990,MA-0340,Williamsburg,Hampshire County,Westhampton,174.6
+2508850,MA-0210,Northampton,Hampshire County,Northampton,176.3
+2505940,MA-0127,Hatfield,Hampshire County,Hatfield,177.4
+2506000,MA-0685,Hawlemont,Franklin County,Shelburne Falls,184.7
+2507990,MA-0717,Mohawk Trail,Franklin County,Shelburne Falls,184.7
+2503900,MA-0068,Conway,Franklin County,South Deerfield,186.9
+2504080,MA-0074,Deerfield,Franklin County,South Deerfield,186.9
+2505100,MA-0670,Frontier,Franklin County,South Deerfield,186.9
+2511370,MA-0289,Sunderland,Franklin County,South Deerfield,186.9
+2512870,MA-0337,Whately,Franklin County,South Deerfield,186.9
+2509840,MA-0242,Provincetown,Barnstable County,Provincetown,187.2
+2513321,MA-0662,Farmington River Reg,Berkshire County,Otis,191.2
+2500014,MA-0632,Chesterfield-Goshen,Hampshire County,Chesterfield,191.7
+2513260,MA-0349,Worthington,Hampshire County,Worthington,192.8
+2506690,MA-0150,Lee,Berkshire County,Lee,203.6
+2510230,MA-0253,Rowe,Franklin County,Rowe,208.9
+2502530,MA-0618,Berkshire Hills,Berkshire County,Stockbridge,210.2
+2506750,MA-0152,Lenox,Berkshire County,Lenox,210.3
+2510530,MA-0263,Savoy,Berkshire County,Savoy,215.5
+2504920,MA-0098,Florida,Berkshire County,Florida,217.7
+2510080,MA-0249,Richmond,Berkshire County,Richmond,221.7
+2509630,MA-0236,Pittsfield,Berkshire County,Pittsfield,221.8
+2508670,MA-0209,North Adams,Berkshire County,North Adams,226.8
+2500079,MA-0414,Berkshire Arts and Technology Charter Public (District),Berkshire County,Adams,228.7
+2503720,MA-0063,Clarksburg,Berkshire County,Clarksburg,229.3
+2503390,MA-0635,Central Berkshire,Berkshire County,Dalton,230
+2511040,MA-0765,Southern Berkshire,Berkshire County,Sheffield,231.1
+2508950,MA-0851,Northern Berkshire Regional Vocational Technical,Berkshire County,North Adams,232
+2501780,MA-0603,Hoosac Valley Regional,Berkshire County,Cheshire,237.7
+2505760,MA-0121,Hancock,Berkshire County,Hancock,248
+2508160,MA-0715,Mount Greylock,Berkshire County,Williamstown,248.3
+2505340,MA-0109,Gosnold,Barnstable County,East Falmouth,#N/A
