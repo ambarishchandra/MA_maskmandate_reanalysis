@@ -37,7 +37,7 @@ Stata codes were created and tested using Stata Version 18.
 R codes were created and tested using R Version 4.2.3
 
 
-Figure 1: Map of School Districts in Massachusetts
+**Figure 1: Map of School Districts in Massachusetts**
 
 Dataset(s) required:
 
@@ -62,7 +62,7 @@ massmap.do: saves district_data_for_map2.csv, which is an intermediate file to b
 map_50.R: Reads in district_data_for_map2.csv and creates the required map, saving in "massmap50b.png"
 
 
-Figure 2: Demographic Data on NEJM school Districts
+**Figure 2: Demographic Data on NEJM school Districts**
 
 Dataset(s) required:
 
@@ -80,7 +80,7 @@ Code(s) required:
 graph_race_income.do: Read in raw data, creates and saves a graph (medinc_race.png) showing median income and fraction white for all districts, which is Figure 2 in the paper.
 
 
-Figure 3a and 3b: Replication and Extension of Figure 1B from Cowger et al
+**Figure 3a and 3b: Replication and Extension of Figure 1B from Cowger et al**
 
 Dataset(s) required:
 
@@ -97,7 +97,7 @@ Replicate_nejm.do: reads in district level data on Staff FTE and student enrollm
 
 Make_nejm_graphs.do: starts with data_for_graphs.dta, makes graphs to replicate Figure in Cowger et al, for Figure 3a in the paper (students1.png). Also extends back to the start of the school year for Figure 3b (students2.png).
 
-Figure 4: Student case rates reported by districts, aggregated by Massachusetts counties.
+**Figure 4: Student case rates reported by districts, aggregated by Massachusetts counties.**
 
 Dataset(s) required:
 
@@ -109,7 +109,7 @@ Code(s) required:
 
 Extend_nejm.do: Aggregates weekly district-level covid-19 case rates to the county level, for each of MA’s 14 counties, and then produces a graph (counties3.png) which is Figure 4 in the paper.
 
-Figure 5. Cumulative community cases by district mask policy
+**Figure 5. Cumulative community cases by district mask policy**
 
 Dataset(s) required: 
 
@@ -123,7 +123,7 @@ Make_4group_data.do: Reads in community case data, assigns cases to school distr
 
 Cumulative_graph_4district_groups.R: R code to read in the intermediate dataset (4group_data.csv) described above and create a graph plotting cumulative infections per capita for each of the four groups of school districts, saving plot_cumulative_4group.pdf which is Figure 5 in the paper.
 
-Figure 6: Analysis of the relationship between community case rates from 12/1/2020 through 2/27/2022 and case rates post 2/27/2022 through 6/22/2022.
+**Figure 6: Analysis of the relationship between community case rates from 12/1/2020 through 2/27/2022 and case rates post 2/27/2022 through 6/22/2022.**
 
 Dataset(s) required:
 
@@ -133,7 +133,7 @@ Code(s) required:
 
 Graph_pre_post_by_group.do: Creates a graph, stratified by the four groups of districts by mask policy, with the following information: a scatter plot, and the associated fitted regression line, of the log of each of the two variables in the dataset as described above. The graph is saved in regs_by_group.png, which is Figure 6 in the paper.
 
-Table 1. Case rate changes from pre- to post-March 3rd 2023 by multiple baseline time periods.
+**Table 1. Case rate changes from pre- to post-March 3rd 2023 by multiple baseline time periods.**
 
 Dataset(s) required:
 
@@ -141,7 +141,7 @@ student_weekly_cases_percap_bygroup.csv. This data was pulled from the dataset o
 
 Code(s) required: None outside of formulas in the spreadsheet cells
 
-Table 2: Characteristics of masking districts and various control groups which dropped mask mandates; Logit-Link Regression analysis.
+**Table 2: Characteristics of masking districts and various control groups which dropped mask mandates; Logit-Link Regression analysis.**
 
 Dataset(s) required:
 
