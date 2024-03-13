@@ -25,10 +25,15 @@ Note that some figures use the same datasets as those used for making prior figu
 Notes on executing the codes:
 
 Place “codes”, “data” and “figures” at the same level of folder hierarchy.
+
 Execute all codes from the root folder.
+
 Graphs will be saved to the “figures” subfolder, which the user needs to create.
+
 The final tables require additional formatting that is not shown here.
+
 Stata codes were created and tested using Stata Version 18.
+
 R codes were created and tested using R Version 4.2.3
 
 
