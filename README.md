@@ -86,36 +86,23 @@ Code(s) required:
 new_cumul_cases.do: Stata code to read in community case data, assign cases to school districts based on district to town mapping and create a graph plotting cumulative infections per capita for each of the four groups of school districts, saving new_cumul.png which is Figure 3 in the paper.
 
 
-**Table 1. Case rate changes from pre- to post-March 3rd 2023 by multiple baseline time periods.**
+**Table 1. Case Rates and relative differences for treatment and various control groups.**
+
 
 Dataset(s) required:
-
-student_weekly_cases_percap_bygroup.csv. This data was pulled from the dataset of school districts (pre_post_data.csv) with the constructed variable of average weekly cases per capita in different time periods before intervention removal and then the 6 weeks and 12 weeks after interventional removal. 3 different pre-mandate removal weekly averages were calculated according to 3 different start dates to mandate removal intervals: September 16th to mandate removal, December 2nd to mandate removal, and January 27th to mandate removal.
-
-Code(s) required: None outside of formulas in the spreadsheet cells
-
-**Table 2: Characteristics of masking districts and various control groups which dropped mask mandates; Logit-Link Regression analysis.**
-
-Dataset(s) required:
-
-Staff_by_district.csv: Number of full-time equivalent staff members for each of 398 MA school districts.
-
-Nejm_covid_reports.csv: Weekly positive Covid-19 cases, separately for students and staff, for 398 MA school districts.
-
-nces_ma_district_bos_distances_A.csv: Dataset on MA school districts with distance from Boston obtained from: from https://nces.ed.gov/ccd/districtsearch/
-
-enrollmentbyracegender.csv: Race and Gender data for 398 MA school districts.
-
-district_medinc.csv: Median Income for 296 MA school districts.
 
 nejm_unmasking_dates.csv: List of 72 districts studied by Cowger et al, with dates on which mask mandates ended.
 
 MA_district_enrollment_bygrade.csv: Number of students enrolled, by grade, in each of 398 MA school districts.
 
-SCHOOLDISTRICTS_POLY.shp: polygon shapefile of MA school districts.
+staff_by_district.csv: Number of staff FTE in each MA school district
+
+nejm_covid_reports.csv: Weekly positive Covid-19 cases, separately for students and staff, for 398 MA school districts.
 
 Code(s) required:
 
-massmap.do: From Figure 1, this creates an intermediate dataset, distance_demgraphics.dta that is required by the next code.
+make_weekly_district_case_dataset: Merges in all the demographic data, enrollment and staffing data, and weekly case data in the datasets above. Saves an intermediate dataset: district_weekly_cases_percap_staffstudents.dta.
 
-summary and logit table.do: Merges in all the demographic data, enrollment and staffing data, and weekly case data in the datasets above. Creates various subgroups corresponding to the control groups used in the paper. Then creates data used in the upper panel of Table 2 (demographics and distance). Also estimates logit link regressions for the lower panel of Table 2.
+summary and logit table.do: Reads in district_weekly_cases_percap_staffstudents.dta, creates various subgroups corresponding to the control groups used in the paper. Then creates data used in the left panels of Table 1 (weekly case rates per capita for various groups). Also estimates logit link regressions.
+
+Note: the full table requires additional manipulation in Excel or another application.
