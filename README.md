@@ -103,6 +103,6 @@ Code(s) required:
 
 make_weekly_district_case_dataset: Merges in all the demographic data, enrollment and staffing data, and weekly case data in the datasets above. Saves an intermediate dataset: district_weekly_cases_percap_staffstudents.dta.
 
-summary and logit table.do: Reads in district_weekly_cases_percap_staffstudents.dta, creates various subgroups corresponding to the control groups used in the paper. Then creates data used in the left panels of Table 1 (weekly case rates per capita for various groups). Also estimates logit link regressions.
+DiD table july 2024.do: Reads in district_weekly_cases_percap_staffstudents.dta, saves an intermediate dataset (did_reg_data.dta). It then reads in this intermediate dataset, and creates the various treatment and control groups used in the paper. It then calculates the mean case rates for each of these groups before and after the end of the statewide mask mandate, which are the values shown in the left panel of Table 1 in the paper. Finally, it estimates linear regressions of case rates on dummy variables for treatment, post-intervention and their interaction to get the DiD estimates with the corresponding standard errors and confidence intervals which are also shown in Table 1.
 
 Note: the full table requires additional manipulation in Excel or another application.
