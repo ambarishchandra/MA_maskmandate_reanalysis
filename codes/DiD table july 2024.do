@@ -11,7 +11,7 @@ use ./data/district_weekly_cases_percap_staffstudents, clear
 
 keep if date>=22539 & date<=22819 //only the 2021-22 school year
 
-gen post=date>22707 //Date the statewide mkas mandate ended
+gen post=date>22707 //Date the statewide mask mandate ended
 
 sort district
 merge m:1 district using ./data/distance_demographics
